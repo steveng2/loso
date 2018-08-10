@@ -339,12 +339,77 @@ p {
     font-weight: 300;
     line-height: 25px;
 }
+/* ============= Purchase Now ============= */
+.purchase-now {
+    background-color: #1a1a1a;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.purchase-now p {
+    color:#DFDFDF;
+    font-size: 18px;
+    font-weight: 300;
+}
+.btn-purchase-now,
+.btn-purchase-now:active,
+.btn-purchase-now:focus,
+.btn-purchase-now:visited
+{
+    background-color: #129CF3;
+    border: 1px solid #129CF3;
+    color: #FFF;
+    border-radius: 3px;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+    
+}
+.btn-purchase-now:hover {
+  background-color:  #1274B1;
+  border-color: #316B90;      
+}
+/* ============= Counter ============= */
+.counter {
+    background-image: url(../images/counter-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-position: 50% 50%;
+}
 
+.counter-overlay {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: rgba(0, 0, 0, .4);
+}
+.counter-item i {
+    color: #129CF3;
+    font-size: 60px;
+}
+.counter-item h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #D7DADB;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
 
-
-
-
-
+.counter-item p {
+    color: #D7DADB;
+    font-size: 20px;
+    margin-top: 6px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", sans-serif;
+}
 
 
 
