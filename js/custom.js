@@ -115,3 +115,64 @@ $(document).ready(function() {
     });
 });
 
+// Add auto padding to header
+$(document).ready(function() {
+    
+    'use strict';
+    
+    setInterval( function() {
+        
+        'use strict';
+        
+        var windowHeight = $(window).height();
+        
+        var containerHeight = $(".header-container").height();
+        
+        var padTop = windowHeight - containerHeight;
+        
+        $(".header-container").css({
+            
+            'padding-top': Math.round(padTop / 2) + 'px',
+            'padding-bottom': Math.round(padTop / 2) + 'px'
+            
+        });
+        
+    }, 10);
+    
+});
+
+// Add bxslider to screen
+$(document).ready(function(){
+    $('.bxslider').bxSlider({
+       
+        slideWidth: 292.5,
+        auto: true,
+        minSlides: 1,
+        maxSlides: 3,
+        slideMargin: 50
+    });
+    
+});
+
+
+// Add counterup
+
+$(document).ready(function(){
+    
+    $('.counter-num').counterUp({
+    delay: 10,
+    time: 2000
+});
+    
+});
+
+//Add animation  Initalize Woo
+$(document).ready(function(){
+    'use strict';
+    
+    new WOW().init();
+    
+});
+
+
+

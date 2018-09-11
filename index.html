@@ -26,7 +26,16 @@
         
         <!-- Fontawesome  -->
         <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">                  
+        
+          
+        <!-- Animation css -->  
+        <link rel="stylesheet" type="text/css" href="css/animate.css">    
+        
+        <!-- Styles -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">  
+        
+        <!-- Bx silder css -->  
+        <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">           
     </head>
     
     <body>
@@ -73,7 +82,7 @@
            
            
             <div class="header-overlay">
-                <div class="container">
+                <div class="container header-container">
                     <div class="row">
                       <div class="col-md-12">
                           <!--Logo -->
@@ -92,8 +101,8 @@
                           </div>  
                             <div class="header-btns">
                                 <!-- Header buttons-->
-                                    <a href="#" class="btn btn-download">Download</a>
-                                    <a href="#" class="btn btn-tour">Take a Tour<i class="fa fa-angle-down"></i></a>
+                                    <a href="#" class="btn btn-download wow fadeInLeft">Download</a>
+                                    <a href="#" class="btn btn-tour wow fadeInRight">Take a Tour<i class="fa fa-angle-down"></i></a>
                             </div>
                         </div>
                         <div class="col-md-3 col-md-offset-1">
@@ -358,25 +367,33 @@
                 </div>
             </div>
             <div class="screen-slider">
-                <div class="carousel">
-                   <!-- item 01 -->
-                    <div class="item">
-                       <img src="images/screen-01.png" alt="screen" width="60" height="60"> 
-                    </div>
-                    <!-- item 02 -->
+                <div class="container">
+                  <div class="row">
+                      
+                      <div class="bxslider">
+                          
+                      
+                  
+                           <!-- item 01 -->
+                            <div class="item">
+                               <img src="images/screen-01.png" alt="screen"> 
+                            </div>
+                            <!-- item 02 -->
 
-                    <div class="item">
-                       <img src="images/screen-02.png" alt="screen" width="60" height="60"> 
-                    </div>
-                    <!-- item 03 -->
+                            <div class="item">
+                               <img src="images/screen-02.png" alt="screen"> 
+                            </div>
+                            <!-- item 03 -->
 
-                    <div class="item">
-                       <img src="images/screen-03.png" alt="screen" width="60" height="60"> 
-                    </div>
-                    <!-- item 04 -->
+                            <div class="item">
+                               <img src="images/screen-03.png" alt="screen"> 
+                            </div>
+                            <!-- item 04 -->
 
-                     <div class="item">
-                       <img src="images/screen-04.png" alt="screen" width="60" height="60"> 
+                             <div class="item">
+                               <img src="images/screen-04.png" alt="screen"> 
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -563,6 +580,17 @@
         <!-- Bootstrap JavaScript -->
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        
+        <!-- Jquery bxsilder -->
+        <script src="js/jquery.bxslider.min.js"></script>
+        
+        
+          <!-- Jquery  Counter-->
+        <script src="js/jquery.waypoints.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        
+        <!-- Wow  JavaScript -->
+        <script src="js/wow.min.js"></script>
         
         <!-- Custom  JavaScript -->
         <script src="js/custom.js"></script>
